@@ -16,7 +16,6 @@ body {
     z-index: 0;
 }
 
-
 .glass-card {
     background-color: var(--card-bg);
     border: none;
@@ -109,7 +108,7 @@ body {
     border-color: #2980b9;
 }
 
-/* Project Cards */
+/* apartado proyectos */
 .card {
     transition: all 0.3s ease;
     border: 1px solid rgba(0, 0, 0, 0.05) !important;
@@ -124,7 +123,17 @@ body {
     letter-spacing: 0.5px;
 }
 
-/* Custom scrollbar for better aesthetics */
+.tech-badge {
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.tech-badge:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* scrollbar*/
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -142,12 +151,12 @@ body {
     background: #94a3b8;
 }
 
-/* Footer Icons */
+/* Footer */
 .text-secondary.hover-scale:hover {
     color: var(--primary-color) !important;
 }
 
-/* Responsive Adjustments */
+/* Responsive*/
 @media (max-width: 768px) {
     .glass-card {
         padding: 1.5rem !important;
